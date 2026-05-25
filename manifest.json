@@ -1,0 +1,9 @@
+{
+  "id": "desktop-sidebar-gestures",
+  "name": "Desktop Sidebar Gestures",
+  "version": "1.0.0",
+  "minAppVersion": "1.5.0",
+  "description": "Directional desktop swipe gestures for opening and closing Obsidian sidebars.",
+  "author": "Jared",
+  "isDesktopOnly": true
+}
