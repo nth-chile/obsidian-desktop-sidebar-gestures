@@ -28,7 +28,22 @@ Once enabled, swipe horizontally on your trackpad anywhere in the app:
 - **Swipe right** — closes the right sidebar if open, otherwise opens the left sidebar.
 - **Swipe left** — closes the left sidebar if open, otherwise opens the right sidebar.
 
-Empty or unavailable sidebars do not open on swipe. There is nothing to configure.
+Empty or unavailable sidebars do not open on swipe.
+
+## Settings
+
+Under **Settings → Desktop Sidebar Gestures**:
+
+- **Limit gestures to the screen edges** — off by default. When on, a swipe only counts if the
+  pointer is near the left or right edge of the window, so horizontal scrolling in the middle of a
+  note or table is left alone.
+- **Left edge zone width** and **Right edge zone width** — how far each zone reaches into the space
+  between the sidebars, as a percentage of that space (0–100%, default 33% each). An open sidebar
+  counts as part of its own zone, so a zone starts at that sidebar's inner edge and extends inward.
+  Set a side to 0 to ignore swipes on that side entirely, which is useful if you only keep one
+  sidebar and want a wide zone on that side and nothing on the other. If the two zones would add up
+  to more than the space available, both shrink proportionally so a sliver in the middle always
+  keeps scrolling normally.
 
 ## Notes
 
